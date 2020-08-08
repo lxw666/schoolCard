@@ -1,0 +1,33 @@
+.common-toast {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10000;
+	.common-toast-box {
+		width: 281px;
+		height: 233px;
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 30px;
+		background-color: #fff;
+		img {
+			width: 80px;
+			height: 80px;
+			margin-bottom: 25px;
+		}
+		p {
+			font-size: 26px;
+			color: #222222;
+			padding: 0 20px;
+			text-align: center;
+		}
+	}
+}

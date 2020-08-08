@@ -1,0 +1,23 @@
+.password-box{
+	margin-bottom: 90px;
+}
+.form-input{
+	height: 112px;
+	label{
+		width: 164px;
+		flex-shrink: 0;
+		font-size: 32px;
+		color: #222222;
+		font-weight: 600;
+	}
+	input{
+		flex: 1;
+		padding: 20px 0;
+		font-size: 32px;
+		color: #000;
+		border: 0;
+		&::-webkit-input-placehoder{
+			color: #6d7288;
+		}
+	}
+}

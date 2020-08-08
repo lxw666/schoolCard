@@ -1,0 +1,50 @@
+.ar-banner {
+	margin-bottom: 10px;
+}
+.swiper {
+	font-size: 40px;
+	color: #fff;
+}
+.swiper-slide {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+.ar-tab {
+	header {
+		padding: 40px 0;
+		font-size: 32px;
+		color: #222;
+		font-weight: 600;
+	}
+	.tab-item {
+			flex-wrap: wrap;
+		button {
+			width: 213px;
+			height: 100px;
+			font-size: 36px;
+			color: #222222;
+			font-weight: 600;
+			background-color: #f5f6f8;
+			border-radius: 5px;
+			border: solid 1px #ffffff;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			&:nth-child(3n){
+				margin-right: 0;
+			}
+			&.active{
+				background-color: rgba(11,116,241,.23);
+				color: #0b74f1;
+				border-color: #0b74f1;
+			}
+		}
+	}
+}
+.common-btn{
+	margin-top: 117px;
+	button{
+		width: 600px;
+	}
+}

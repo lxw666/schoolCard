@@ -1,0 +1,63 @@
+/* 公共scss资源，只存在变量，混合器，方法之类的资源，不允许放具体选择器样式 */
+%flex-default {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+%flex-one {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+%flex-two {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+%flex-three {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+%flex-four {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+%flex-five {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+%flex-six {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+%flex-seven {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+%more-line {
+	text-align: justify;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+%more-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

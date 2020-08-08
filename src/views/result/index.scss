@@ -1,0 +1,30 @@
+.result-t{
+	flex-direction: column;
+	img{
+		width: 233px;
+		height: 192px;
+		margin-bottom: 30px;
+	}
+	h4{
+		font-size: 27px;
+		color: #909090;
+		margin-bottom: 10px;
+	}
+	h2{
+		font-size: 84px;
+		font-weight: 600;
+		color: #262626;
+	}
+}
+.common-btn{
+	margin-top: 50px;
+}
+.result-b{
+	flex-direction: column;
+	margin-top: 134px;
+	p{
+		font-size: 26px;
+		color: #666;
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,203 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+header,
+hgroup,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+figcaption,
+menu,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+a {
+	-webkit-touch-callout: none;
+	text-decoration: none;
+}
+
+:focus {
+	outline: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	outline: 0;
+}
+input::-webkit-input-placeholder {
+	color: #666;
+}
+
+button {
+	-webkit-appearance: none;
+	border: 0;
+	background: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.flex-default {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-one {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-two {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.flex-three {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-four {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.flex-five {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.flex-six {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.flex-seven {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.m-r-15 {
+	margin-right: 15px;
+}
+
+.m-r-20 {
+	margin-right: 20px;
+}
+
+.m-r-25 {
+	margin-right: 25px;
+}
+
+.m-b-40 {
+	margin-bottom: 40px;
+}
+
+.m-b-50 {
+	margin-bottom: 50px;
+}
+
+.m-b-80 {
+	margin-bottom: 80px;
+}
+
+.m-t-10 {
+	margin-top: 10px;
+}
+
+.m-t-25 {
+	margin-top: 25px;
+}
+
+.more-line {
+	text-align: justify;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.more-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

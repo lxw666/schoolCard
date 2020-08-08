@@ -1,0 +1,31 @@
+.mi-notice{
+	height: 103px;
+	>img{
+		width: 34px;
+		height: 30px;
+		margin-right: 18px;
+	}
+	>p{
+		flex: 1;
+		font-size: 30px;
+		color: #666;
+	}
+}
+.mi-item-box{
+	border-top: 1px solid #eee;
+	.mi-item{
+		@extend %flex-three;
+		height: 110px;
+		font-size: 32px;
+		font-weight: 600;
+		color: #222222;
+		border-bottom: 1px solid #eee;
+		padding: 0 30px;
+		p{
+			flex: 1;
+		}
+		>img{
+			width: 56px;
+		}
+	}
+}
