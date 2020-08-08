@@ -1,4 +1,5 @@
 const vConsolePlugin = require('vconsole-webpack-plugin');
+console.log('VUE_APP_POST_URL',process.env.VUE_APP_POST_URL,process.env.VUE_APP_LIST_FLAG)
 module.exports = {
 	runtimeCompiler: true,
 	devServer: {
@@ -11,7 +12,7 @@ module.exports = {
 		},
 		proxy: { // 配置代理
 			'/index.php': {
-				target: 'https://xqb.sce.sjtu.edu.cn/index.php', //源地址
+				target: process.env.VUE_APP_POST_URL, //源地址
 				changeOrigin: true, //改变源
 				ws: true, //是否代理websockets
 				pathRewrite: {
@@ -22,7 +23,7 @@ module.exports = {
 	},
 
 	assetsDir: 'static',
-	publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
+	publicPath: process.env.NODE_ENV === 'production' ? process.env.VUE_APP_LIST_FLAG : '/',
 	css: {
 		loaderOptions: {
 			postcss: {

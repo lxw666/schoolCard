@@ -41,10 +41,9 @@ const routes = [{
 	}
 
 ];
-
 const router = new VueRouter({
 	mode: "history",
-	base: '/',
+	base: process.env.VUE_APP_LIST_FLAG,
 	routes
 });
 
